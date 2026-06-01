@@ -24,3 +24,18 @@ var Agentd = Service{
 	DefaultDir: ".agentd",
 	Layout:     Default,
 }
+
+// WorkLayout is the on-disk layout for agentd-work homes (~/.agentd-work).
+var WorkLayout = func() Layout {
+	l := Default
+	l.PipePrefix = "agentd-work"
+	return l
+}()
+
+// Work configures home resolution for the agentd-work CLI/daemon.
+var Work = Service{
+	EnvVar:       "AGENTD_HOME",
+	DefaultDir:   ".agentd-work",
+	Layout:       WorkLayout,
+	RegistryFile: "sessions/known-daemons.json",
+}
