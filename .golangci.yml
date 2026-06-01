@@ -9,12 +9,16 @@ linters:
     - bodyclose
     - contextcheck
     - errcheck
+    - errorlint
     - goconst
     - gocritic
+    - godoclint
     - godot
     - gosec
     - govet
     - ineffassign
+    - misspell
+    - modernize
     - nilerr
     - noctx
     - nolintlint
@@ -66,6 +70,7 @@ linters:
       - linters:
           - goconst
           - gosec
+          - misspell
           - prealloc
         path: _test\.go
     paths:
