@@ -4,6 +4,9 @@ set -euo pipefail
 
 cd "$(dirname "$0")/.."
 
+echo "==> go mod tidy"
+go mod tidy
+
 echo "==> go test -race -cover ./..."
 go test -race -cover ./...
 
