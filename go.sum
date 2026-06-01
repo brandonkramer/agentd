@@ -69,8 +69,6 @@ github.com/Djarvur/go-err113 v0.1.1 h1:eHfopDqXRwAi+YmCUas75ZE0+hoBHJ2GQNLYRSxao
 github.com/Djarvur/go-err113 v0.1.1/go.mod h1:IaWJdYFLg76t2ihfflPZnM1LIQszWOsFDh2hhhAVF6k=
 github.com/Masterminds/semver/v3 v3.5.0 h1:kQceYJfbupGfZOKZQg0kou0DgAKhzDg2NZPAwZ/2OOE=
 github.com/Masterminds/semver/v3 v3.5.0/go.mod h1:4V+yj/TJE1HU9XfppCwVMZq3I84lprf4nC11bSS5beM=
-github.com/Microsoft/go-winio v0.6.2 h1:F2VQgta7ecxGYO8k3ZZz3RS8fVIXVxONVUPlNERoyfY=
-github.com/Microsoft/go-winio v0.6.2/go.mod h1:yd8OoFMLzJbo9gZq8j5qaps8bJ9aShtEA8Ipt1oGCvU=
 github.com/MirrexOne/unqueryvet v1.5.4 h1:38QOxShO7JmMWT+eCdDMbcUgGCOeJphVkzzRgyLJgsQ=
 github.com/MirrexOne/unqueryvet v1.5.4/go.mod h1:fs9Zq6eh1LRIhsDIsxf9PONVUjYdFHdtkHIgZdJnyPU=
 github.com/OpenPeeDeeP/depguard/v2 v2.2.1 h1:vckeWVESWp6Qog7UZSARNqfu/cZqvki8zsuj3piCMx4=
@@ -118,14 +116,10 @@ github.com/brandonkramer/catalogfile v0.1.0 h1:A2LkluHS26N4f/qrynxr1IkoKKrBX4kjX
 github.com/brandonkramer/catalogfile v0.1.0/go.mod h1:ATQjV+Impk0B8lDPmuhQOf4vi1OOmvYCKuWsadW/Gdw=
 github.com/brandonkramer/filelock v0.1.0 h1:xJSl6m4jg7V03F2frZ+XbbRcTRv/+FnKl3SjonQhsSQ=
 github.com/brandonkramer/filelock v0.1.0/go.mod h1:9yMwEj4KdQvKDvUpKArOctKYAkACqTlV4tofMVHPq9o=
-github.com/brandonkramer/ipc v0.2.0 h1:LMnP7evM12PB8e+aUGMfP3/yOAFh5BSlCWPUMIiNh8I=
-github.com/brandonkramer/ipc v0.2.0/go.mod h1:okAaUUUTNJQgpWqCcUTn70rTmntcsSpKwpuaNwhQk1U=
 github.com/brandonkramer/jsonfile v0.1.0 h1:a65VKR9okLjwiIdsBd95blQ7YQ1K7U4b1OCG2g6d/Is=
 github.com/brandonkramer/jsonfile v0.1.0/go.mod h1:pLGl+RjNkCjh+aa4+NI2HYo4NpEv1qipkbVw5JX0Db0=
 github.com/brandonkramer/locdaemon v0.1.2 h1:5CGg61eSiivDATEiUbVahIFlk6dkgCfTJrE49JXK7XI=
 github.com/brandonkramer/locdaemon v0.1.2/go.mod h1:ZtcRuWpncvZSGgB4ZI2c4MSDj7lVQquRO9G0XoP94tk=
-github.com/brandonkramer/message v0.1.1 h1:ohyDAia6GLdr2t/coNDX1ScMPJHloKQpE3lG/Khq434=
-github.com/brandonkramer/message v0.1.1/go.mod h1:+kwrzFzWOPZIbGtcBG9DbAw5k34ik16dHd4/65uyBos=
 github.com/brandonkramer/poll v0.1.0 h1:17vsYrt2UZwoH7M59vIpLH49+1aZqrQLvQXTSC6Sa4w=
 github.com/brandonkramer/poll v0.1.0/go.mod h1:GQh2DsbybhTWQ8qGD2hS5RMEDtcoJeG6VcSxQs7f1oQ=
 github.com/brandonkramer/procenv v0.1.0 h1:U7LateEZw1S5q0ocsUHee3uZebdHuNwxznyUeuZW4Jw=
@@ -183,10 +177,6 @@ github.com/clipperhouse/uax29/v2 v2.7.0 h1:+gs4oBZ2gPfVrKPthwbMzWZDaAFPGYK72F0NJ
 github.com/clipperhouse/uax29/v2 v2.7.0/go.mod h1:EFJ2TJMRUaplDxHKj1qAEhCtQPW2tJSwu5BF98AuoVM=
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=
 github.com/cpuguy83/go-md2man/v2 v2.0.6/go.mod h1:oOW0eioCTA6cOiMLiUPZOpcVxMig6NIQQ7OS05n1F4g=
-github.com/creachadair/jrpc2 v1.3.5 h1:onJko+1u6xoiRph3xwWmfNISR91teCRhbJwSyS9Svzo=
-github.com/creachadair/jrpc2 v1.3.5/go.mod h1:YXDmS53AavsiytbAwskrczJPcVHvKC9GoyWzwfSQXoE=
-github.com/creachadair/mds v0.26.1 h1:CQG8f4cueHX/c20q5Sy/Ubk8Bvy+aRzVgbpxVieMBAs=
-github.com/creachadair/mds v0.26.1/go.mod h1:dMBTCSy3iS3dwh4Rb1zxeZz2d7K8+N24GCTsayWtQRI=
 github.com/curioswitch/go-reassign v0.3.0 h1:dh3kpQHuADL3cobV/sSGETA8DOv457dwl+fbBAhrQPs=
 github.com/curioswitch/go-reassign v0.3.0/go.mod h1:nApPCCTtqLJN/s8HfItCcKV0jIPwluBOvZP+dsJGA88=
 github.com/daixiang0/gci v0.13.7 h1:+0bG5eK9vlI08J+J/NWGbWPTNiXPG4WhNLJOkSxWITQ=

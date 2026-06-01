@@ -13,10 +13,7 @@ require (
 	github.com/brandonkramer/svcroot v0.1.3
 )
 
-require (
-	github.com/brandonkramer/ipc v0.2.0 // indirect
-	github.com/brandonkramer/procenv v0.1.0 // indirect
-)
+require github.com/brandonkramer/procenv v0.1.0 // indirect
 
 require (
 	4d63.com/gocheckcompilerdirectives v1.3.0 // indirect
@@ -36,7 +33,6 @@ require (
 	github.com/ClickHouse/clickhouse-go-linter v1.2.0 // indirect
 	github.com/Djarvur/go-err113 v0.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.5.0 // indirect
-	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/MirrexOne/unqueryvet v1.5.4 // indirect
 	github.com/OpenPeeDeeP/depguard/v2 v2.2.1 // indirect
 	github.com/alecthomas/chroma/v2 v2.24.1 // indirect
@@ -54,7 +50,6 @@ require (
 	github.com/bombsimon/wsl/v4 v4.7.0 // indirect
 	github.com/bombsimon/wsl/v5 v5.8.0 // indirect
 	github.com/brandonkramer/filelock v0.1.0 // indirect
-	github.com/brandonkramer/message v0.1.1 // indirect
 	github.com/brandonkramer/poll v0.1.0 // indirect
 	github.com/brandonkramer/shellquote v0.1.0
 	github.com/breml/bidichk v0.3.3 // indirect
@@ -74,8 +69,6 @@ require (
 	github.com/ckaznocha/intrange v0.3.1 // indirect
 	github.com/clipperhouse/displaywidth v0.11.0 // indirect
 	github.com/clipperhouse/uax29/v2 v2.7.0 // indirect
-	github.com/creachadair/jrpc2 v1.3.5 // indirect
-	github.com/creachadair/mds v0.26.1 // indirect
 	github.com/curioswitch/go-reassign v0.3.0 // indirect
 	github.com/daixiang0/gci v0.13.7 // indirect
 	github.com/dave/dst v0.27.3 // indirect
