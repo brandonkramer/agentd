@@ -65,9 +65,7 @@ func hashPayload(home string, spec *AgentSpec, bind *TaskBinding, store Store) (
 		out["task_title"] = bind.Title
 		out["task_body"] = bind.Body
 		out["task_updated_at"] = bind.UpdatedAt
-		for k, v := range bind.HashExtras {
-			out[k] = v
-		}
+		maps.Copy(out, bind.HashExtras)
 	}
 	return out, nil
 }

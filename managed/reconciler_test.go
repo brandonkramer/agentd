@@ -370,8 +370,7 @@ poll_interval = "5ms"
 	if err != nil {
 		t.Fatal(err)
 	}
-	ctx, cancel := context.WithCancel(context.Background())
-	defer cancel()
+	ctx := t.Context()
 	if err := mgr.Tick(ctx); err != nil {
 		t.Fatal(err)
 	}
