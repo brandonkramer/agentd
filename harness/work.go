@@ -5,6 +5,14 @@ const (
 	GenericCommand = "generic-command"
 	// ClaudeCode is the Claude CLI driver name.
 	ClaudeCode = "claude-code"
+	// ClaudeACP is the Claude Code ACP driver name.
+	ClaudeACP = "claude-acp"
+	// Pi is the Pi headless JSON driver name.
+	Pi = "pi"
+	// ProtocolACP marks protocol-backed ACP driver runs.
+	ProtocolACP = "acp"
+	// ProtocolPiJSON marks Pi --print --mode json runs.
+	ProtocolPiJSON = "pi-json"
 )
 
 // WorkInput is everything a harness needs to prepare a run.
@@ -28,5 +36,6 @@ type Prepared struct {
 	ExecArgs        []string
 	ExecDir         string
 	StdinPrompt     bool
+	Protocol        string
 	Warnings        []string
 }

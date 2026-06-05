@@ -93,6 +93,35 @@ func init() {
 		Prepare:     PrepareClaude,
 		Executables: []string{"claude"},
 	})
+	Register(Harness{
+		Name: ClaudeACP,
+		Build: func(in BuildInput) (string, []string, error) {
+			path, err := FindClaudeACPCLI()
+			if err != nil {
+				return "", nil, err
+			}
+			args, _ := claudeACPArgs(in.Model)
+			return path, args, nil
+		},
+		Prepare:     PrepareClaudeACP,
+		Executables: []string{claudeACPExecutable},
+	})
+	Register(Harness{
+		Name: Pi,
+		Build: func(in BuildInput) (string, []string, error) {
+			path, err := FindPiCLI()
+			if err != nil {
+				return "", nil, err
+			}
+			if strings.TrimSpace(in.Prompt) == "" {
+				return "", nil, errCommandRequired
+			}
+			args, _ := piArgs(in.Model, in.Prompt)
+			return path, args, nil
+		},
+		Prepare:     PreparePi,
+		Executables: []string{piExecutable},
+	})
 }
 
 var errCommandRequired = errRequired("command is required")

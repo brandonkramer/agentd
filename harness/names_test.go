@@ -11,4 +11,7 @@ func TestHarnessNames(t *testing.T) {
 	if (claudeCode{}).Name() != ClaudeCode {
 		t.Fatal("claude name")
 	}
+	if (piDriver{}).Name() != Pi {
+		t.Fatal("pi name")
+	}
 }

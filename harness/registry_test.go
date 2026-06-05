@@ -11,7 +11,7 @@ func TestRegistryKnownNames(t *testing.T) {
 	if len(names) < 2 {
 		t.Fatalf("names=%v", names)
 	}
-	for _, name := range []string{"generic-command", "claude-code"} {
+	for _, name := range []string{"generic-command", "claude-code", "pi"} {
 		if _, err := harness.Get(name); err != nil {
 			t.Fatalf("Get(%q): %v", name, err)
 		}
